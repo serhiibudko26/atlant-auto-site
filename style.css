@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  margin-right: 1rem;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background: #ffe600;
+}
+.cars {
+  padding: 2rem;
+  background: #fff;
+}
+.car-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.car-card {
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 300px;
+}
+.car-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.contacts {
+  padding: 2rem;
+  background: #eaeaea;
+}
+form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px;
+}
+form button {
+  padding: 0.6rem;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  width: fit-content;
+  cursor: pointer;
+}
+form button:hover {
+  background: #333;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #000;
+  color: #fff;
+}
